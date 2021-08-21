@@ -26,6 +26,8 @@ document.getElementById('eight-gb-um').addEventListener('click', function () {
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 })
 // when Sixteen gb memory clicked
 
@@ -44,6 +46,8 @@ document.getElementById('sixteen-gb-um').addEventListener('click', function () {
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 
@@ -65,6 +69,8 @@ document.getElementById('two-fifty-six-ssd').addEventListener('click', function 
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 // when five-twelve-ssd clicked
@@ -85,6 +91,8 @@ document.getElementById('five-twelve-ssd').addEventListener('click', function ()
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 // when one-tera-ssd clicked
@@ -105,6 +113,8 @@ document.getElementById('one-tera-ssd').addEventListener('click', function () {
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 // when free-delivery is choosen
@@ -125,6 +135,8 @@ document.getElementById('free-delivery').addEventListener('click', function () {
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 // when twenty-dollar-delivery is choosen
@@ -145,6 +157,8 @@ document.getElementById('twenty-dollar-delivery').addEventListener('click', func
     // total price calculation = bestPrice + memoryCost + storageCost + deliveryCharge
     const newTotalPrice = bestPriceInput + memoryCost + storageCost + deliveryCharge;
     totalPrice.innerText = newTotalPrice;
+    const finalTotalPrice = setValue('final-total-price');
+    finalTotalPrice.innerText = newTotalPrice;
 
 })
 
