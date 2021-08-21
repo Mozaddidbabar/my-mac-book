@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Price</title>
+    <!-- tailwind cdn -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="mt-8 w-3/4 mx-auto">
+            <div class="grid grid-cols-2 mx-auto gap-8">
+                <div>
+                    <!-- mac image -->
+                    <img src="images/mac.png" alt="">
+                </div>
+                <div>
+                    <!-- Content Details -->
+                    <h1 class="font-medium text-4xl mb-4">Customize Your Blue 24 inch iMac with apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core with 4 performance cores and 4 efficient cores, 7 core GPU and 16 core
+                        Neural Engine 8GB unified memory 256GB ssd storage two thuderbolt/USB 4 port magic mouse magic
+                        keyboard-US English</p>
+                    <!-- Memory Part -->
+
+                    <div class="my-8">
+                        <h3 class="font-semibold mb-4">Memory</h3>
+                        <button id="eight-gb-um" class="border-2 rounded p-2 hover:bg-purple-300">8GB
+                            unified Memory</button>
+                        <button id="sixteen-gb-um" class="border-2 rounded p-2 hover:bg-purple-300">16GB
+                            unified Memory</button>
+                    </div>
+                    <!-- Storage Part -->
+
+                    <div class="my-8">
+                        <h3 class="font-semibold mb-4">Storage</h3>
+                        <button id="two-fifty-six-ssd" class="border-2 rounded p-2 hover:bg-purple-300">256GB SSD
+                            Storage</button>
+                        <button id="five-twelve-ssd" class="border-2 rounded p-2 hover:bg-purple-300">512GB SSD
+                            Storage</button>
+                        <button id="one-tera-ssd" class="border-2 rounded p-2 hover:bg-purple-300">1TB SSD
+                            Storage</button>
+                    </div>
+                    <!-- Delivery Option Part -->
+
+                    <div class="my-8">
+                        <h3 class="font-semibold mb-4">Choose Your Delivery Option</h3>
+                        <button id="free-delivery" class="border-2 rounded p-2 hover:bg-purple-300">Friday, Aug 25 free
+                            Prime
+                            Delivery</button>
+                        <button id="twenty-dollar-delivery" class="border-2 rounded p-2 hover:bg-purple-300">Friday, Aug
+                            21 Delivery change
+                            $20</button>
+                    </div>
+                    <!-- Price Evaluation -->
+                    <div class="my-8">
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <h3 class="font-medium text-xl">Best Price</h3>
+                                <h3 class="font-medium text-xl">Extra Memory Cost</h3>
+                                <h3 class="font-medium text-xl">Extra Storage Cost</h3>
+                                <h3 class="font-medium text-xl">Delivery Charge</h3>
+                                <br>
+                                <hr>
+                                <h3 class="font-medium text-xl">Total Price</h3>
+
+                            </div>
+                            <div>
+                                <h3 class="font-medium text-xl">$<span id="best-price">1299</span></h3>
+                                <h3 class="font-medium text-xl">$<span id="extra-memory-cost">00</span></h3>
+                                <h3 class="font-medium text-xl">$<span id="extra-storage-cost">00</span></h3>
+                                <h3 class="font-medium text-xl">$<span id="delivery-charge">00</span></h3>
+                                <br>
+                                <hr>
+                                <h3 class="font-medium text-xl">$<span id="total-price">1299</span></h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/price-calculation.js"></script>
+    <!-- <script src="js/storage.js"></script> -->
+</body>
+
+</html>
