@@ -147,3 +147,22 @@ document.getElementById('twenty-dollar-delivery').addEventListener('click', func
     totalPrice.innerText = newTotalPrice;
 
 })
+
+// promo code matching
+document.getElementById('promo-code-button').addEventListener('click', function () {
+    const promoCodeText = document.getElementById('promo-code');
+    const promoCodeInput = promoCodeText.value;
+    if (promoCodeInput == "stevekaku") {
+        const totalPrice = setValue('total-price');
+        const finalTotalPrice = setValue('final-total-price');
+        const totalPriceInput = convertValue('total-price');
+        const reducedValue = (totalPriceInput * 20) / 100;
+        finalTotalPrice.innerText = totalPriceInput - reducedValue;
+    }
+    else {
+        const totalPrice = setValue('total-price');
+        const finalTotalPrice = setValue('final-total-price');
+        const totalPriceInput = convertValue('total-price');
+        finalTotalPrice.innerText = totalPriceInput;
+    }
+})
